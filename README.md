@@ -13,4 +13,6 @@ Each image has one corresponding output text file, which has the same name as th
 ## How to Use
 Use command line: *"./marker [tag] [image_dir]"*. If you make some changes to the src code, remove 'CMakeCache.txt' then in command line *"cmake ."* and *"make"*.
 
+The script will open jpg or png files one by one, use your mouse to drag a bounding box on the targe object. You can draw multiple times if there are more than one. Press SPACE to go to the next image. 
+
 An example of ImageMarker's applications is [YOLO object detector](https://github.com/hyperchris/Yolo)
