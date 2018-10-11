@@ -13,6 +13,6 @@ Each image has one corresponding output text file in ```pos/``` folder, which ha
 ## How to Use
 First, go to the root dir of ImageMarker. Then run ```cmake .``` and ```make all```.
 
-Then, use command line: *"./marker [tag] [image_dir]"*. The tag can only be *integer*. If you make some changes to the src code, remove 'CMakeCache.txt' then in command line *"cmake ."* and *"make"*.
+Then, use command line: *"./marker [objet_label] [image_dir]"*. The label can only be *integer*. If you make some changes to the src code, remove 'CMakeCache.txt' then in command line *"cmake ."* and *"make"*. If you want to label different objects in the images, you will need to run the script multiple times with different object labels. Note that the results for the single image will be *appended* in the file. 
 
-The script will open jpg or png files one by one, use your mouse to drag a bounding box on the targe object. You can draw multiple times if there are more than one. Press SPACE to go to the next image. 
+The script will open jpg or png files one by one, use your mouse to drag a bounding box on the targe object. You can draw multiple times if there are more than one. Press SPACE or ESC to go to the next image. 
